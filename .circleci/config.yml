@@ -1,16 +1,12 @@
 version: 2.1
 orbs:
-  aws-ecr: circleci/aws-ecr@7.0.0
-  aws-eks: circleci/aws-eks@1.1.0
+  aws-ecr-eks: signavio/aws-ecr-eks@2.4.0
 workflows:
-  build_and_push_image:
+  version: 2
+  aws-ecr-eks:
     jobs:
-      - aws-ecr/build-and-push-image:
+      - build-push-restart:
           context: aws
           repo: site
-      - aws-eks/update-container-image:
-          context: aws
-          cluster-name: hasan-southeast
-          container-image-updates: 265747058112.dkr.ecr.ap-southeast-1.amazonaws.com/site=265747058112.dkr.ecr.ap-southeast-1.amazonaws.com/site:latest
-          requires:
-            - aws-ecr/build-and-push-image
+          deployment_name: web
+          k8s_namespace: default
