@@ -5,7 +5,7 @@ const career = [
     "logo": "transfix.png",
     "role": "Senior Data Engineer",
     "highlights": [
-      "Own Transfix’s data infrastructure spanning Redshift, Snowflake, Airflow, Kubernetes, RDS Postgres Instances, Amazon Database Migration Service Instances, Kinesis Streams & Firehoses, ensuring integrity and accuracy of data operations including timely and accurate data delivery for all use cases",
+      "Own Transfix’s data infrastructure spanning Redshift, Snowflake, Airflow, Kubernetes, RDS Postgres Instances, Amazon Database Migration Service Instances, Kinesis Streams & Firehoses, ensuring integrity and completeness of data operations including timely and accurate data delivery for all use cases",
       "Architect ELT on Snowflake and Looker, structuring logical replication based data extraction, loading as variant unstructured data, and transforming of data in LookML creating a highly performant and adaptable data pipeline, replacing existing ETL data warehouse solutions leading to a ~66% performance improvement in query runtime and an order of magnitude difference in the  efficiency of changing the transformation code",
       "Productionize machine learning models for dynamic pricing, by integrating new data sources, developing ETL for computationally intensive feature engineering transforms, building data integrations with platform micro-services enabling 4 new machine learning models in production per quarter"
     ]
