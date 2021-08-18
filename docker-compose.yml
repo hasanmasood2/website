@@ -1,0 +1,6 @@
+version: "2"
+services:
+  web:
+    image: 265747058112.dkr.ecr.ap-southeast-1.amazonaws.com/site:latest
+    ports:
+      - "8080:80"
