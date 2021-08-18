@@ -7,6 +7,8 @@ workflows:
       - aws-eks/update-container-image:
           context: aws
           aws-region: $AWS_REGION
+          aws-access-key-id: $AWS_ACCESS_KEY_ID
+          aws-secret-access-key: $AWS_SECRET_ACCESS_KEY
           cluster-name: hasan-southeast
           resource-name: deployment/web
           namespace: default
