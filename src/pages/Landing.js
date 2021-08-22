@@ -6,11 +6,11 @@ import "./Landing.css";
 const Landing = () => {
 	return (
 		<div className="landing">
-      <Image
-        imagePath='profile_pic.jpeg'
-        title='Hasan Masood'
-        role='Welcome to my website ❤️ '
-      />
+			<Image
+				imagePath="profile_pic.jpeg"
+				title="Hasan Masood"
+				role="Welcome to my website ❤️ "
+			/>
 		</div>
 	);
 };
