@@ -6,7 +6,7 @@ const career = [
     "role": "Principal Data Engineer",
     "highlights": [
       "Build and own Retailo's data architecture using Redshift, Quicksight, Argo Workflow, Kubernetes, DBT, RDS MySQL Instances, Amazon Database Migration Service Instances, Kinesis Streams & Firehoses, setting up the organization for smooth running of data operations including delivery for all data & machine learning use cases",
-      "Build and manage a talented team of data engineers and business intelligence analysts to scale our data analytics and touch every aspect of the business fostering a data-driven organization"
+      "Build and manage a talented team of data engineers and business intelligence analysts to scale our data analytics and touch every aspect of the business fostering a data-driven organization",
       "Construct real time Log Analytics pipelines to provide visibility on fraudulent user behavior, identifying and blocking platform data theft"
     ]
   },
